@@ -1,16 +1,24 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Splash from "./pages/SplashPage/Splash";
+import Main from "./pages/MainPage/MainPage";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to bootcamp.yearbook()</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Router>
+        <div>
+          {/* <Nav /> */}
+          <Switch>
+            <Route exact path="/" component={Splash} />
+            <Route exact path="/main" component={Main} />
+           {/*  <Route exact path="/user/:id" component={Welcome} />
+            <Route exact path="/signup" component={SignUp} />
+            <Route exact path="/yearbook" component={Yearbook} />
+            <Route component={NoMatch} /> */}
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
