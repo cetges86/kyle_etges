@@ -18,11 +18,19 @@
     text-align: center;
 }
 
+.small-caps {
+    font-variant: small-caps;
+}
+
 .jumbotron {
     display: grid;
     grid-template-columns:1fr;
-    grid-auto-rows: 15em;
+    grid-auto-rows: 10em;
     text-align: center;
+}
+
+.link {
+    text-decoration: none;
 }
 
 #name {
