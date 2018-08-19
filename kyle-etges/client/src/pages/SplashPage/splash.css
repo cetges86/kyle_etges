@@ -10,10 +10,6 @@
     align-items: center;
 }
 
-.wrapper > div:nth-child(odd){
-    background:#ddd;
-}
-
 .center {
     text-align: center;
 }

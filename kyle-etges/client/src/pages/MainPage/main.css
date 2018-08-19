@@ -4,11 +4,12 @@ body {
 
 .container {
     max-width: 80%;
+    margin: auto;
 }
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     grid-gap: 1em;
 }
@@ -17,32 +18,113 @@ body {
     justify-self: center;
     align-self: stretch;
     grid-column: 1/2;
-    padding:5px;
+    padding: 5px;
 }
 
 .react-calendar {
     height: 17em;
-    opacity:.6;
+    opacity: .6;
 }
 
-.react-calendar > div {
-    color:white;
+.react-calendar>div {
+    color: white;
 }
-.react-calendar__navigation__label{
+
+.react-calendar__navigation__label {
     font-size: 1.5em;
-    font-family:'Montserrat', sans-serif;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .events {
     align-self: start;
 }
 
-.calendar > div {
-    width:100%;
+.calendar>div {
+    width: 100%;
 }
 
-.section-dark{
-    background-color:gray;
-    height:25em;
+.section-white {
+    background-color: white;
+    height: 25em;
+}
+
+.section-dark {
+    background-color: gray;
+    height: 25em;
+}
+
+.section-black {
+    background-color: black;
+    height: 25em;
+}
+
+.section-light {
+    background-color: lightgrey;
+    height: 25em;
+}
+
+.subheading {
+    margin-top: 6em;
+    margin-bottom: 4em;
+    color: orange;
+    text-align: center;
+}
+
+.feature {
+    max-width: 50%;
+    margin: auto;
+}
+
+.banner-img {
+    justify-self: center;
+}
+
+.footer-follow {
+    color:white;
+    grid-area: follow;
+    justify-self: end;
+    margin-right: 10%;
+}
+
+.icon {
+    color:white;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding:8px;
+}
+
+.icon-1 {
+    grid-area: icon-1;
+    justify-self: center;
+    padding:8px 12px 9px 12px;
+}
+
+.icon-2 {
+    grid-area: icon-2;
+    justify-self: center;
+
+}
+
+.icon-3 {
+    grid-area: icon-3;
+    justify-self: center;
+
+}
+footer {
+    background-color:black;
+
+}
+
+.footer {
+    border-top: 3px solid black;
+    display: grid;
+    grid-template-columns: 4fr 1fr .4fr .4fr .4fr 4fr;
+    align-items: center;
+    grid-gap: 1em;
+    grid-template-areas: ". follow icon-1 icon-2 icon-3 .";
+}
+
+.white {
+    color:white;
+    padding-bottom: 2%;
 }
