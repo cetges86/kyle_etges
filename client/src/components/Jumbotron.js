@@ -1,7 +1,7 @@
 import React from 'react';
-import "./splash.css";
+import "../pages/MainPage/main.css"
 
-const SplashPage = () => {
+const Jumbotron = () => {
     return (
         <div>
             <div className="wrapper">
@@ -9,10 +9,6 @@ const SplashPage = () => {
                     <h1 id="name">Kyle Etges</h1>
                     <h3 id="header">Saxophonist based in Nashville, TN </h3>
                     <h4>Saxophonist | Composer | Educator | Band Leader</h4>
-                </div>
-
-                <div className="center">
-                    <a className="link" href="/main">Learn More</a>
                 </div>
             </div>
             
@@ -22,4 +18,4 @@ const SplashPage = () => {
 
 
 
-export default SplashPage;
+export default Jumbotron;

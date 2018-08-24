@@ -10,9 +10,9 @@ class Navbar extends Component {
             <h2>Kyle Etges</h2>
             </div>
                 <div className="navbar-links">
-                    <a className="links-right" href="/main">Home</a>
+                    <a className="links-right" href="/">Home</a>
                     <a className="links-right" href="/bio">Bio</a>
-                    <a className="links-right">Media</a>
+                    <a className="links-right" href="/media">Media</a>
                     <a className="links-right">Contact</a>
                     <a className="links-right">Commissions</a>
                     <a className="links-right">Blog</a>

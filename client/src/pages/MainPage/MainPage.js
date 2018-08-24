@@ -2,6 +2,7 @@ import React from 'react';
 import "./main.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Player from "../../components/Player/Player";
+import Jumbotron from "../../components/Jumbotron";
 import Calendar from "react-calendar";
 import Footer from "../../components/Footer/Footer";
 import EventDetail from '../../components/EventDetail/EventDetail';
@@ -32,6 +33,7 @@ const MainPage = () => {
     return (
         <div>
             <Navbar />
+            <Jumbotron />
             <div className="section-dark grid-wrapper">
                 <h2 className="center">Events Calendar</h2>
                 <h2 className="center">Upcoming Events</h2>
