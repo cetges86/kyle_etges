@@ -5,22 +5,27 @@
     border-bottom: 2px solid black;
     margin-bottom: 1em;
     justify-content:space-evenly;
+    border-bottom:var(--shadow);
+
 }
 
 .navbar-banner {
     display: flex;
     align-items: center;
     position: relative;
+    margin-left:1.5rem;
     height:3em;
     padding:5px;
+    font-family:var(--banner);
 }
 
 .navbar-links {
     display: grid;
     grid-column: 2/3;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
     grid-gap: 1em;
     padding:5px;
+    margin-right:1rem;
 }
 
 .links-right {
@@ -39,7 +44,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: var(--light);
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);

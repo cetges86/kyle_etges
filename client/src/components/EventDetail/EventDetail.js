@@ -2,11 +2,13 @@ import React from 'react';
 
 const EventDetail = (props) => {
     return (
-        <li> {props.venue}
+        <li className="event-item"> {props.venue}
             <ul>
-                <li>{props.date}</li>
-                <li>{props.time}</li>
-                <li><a className="link" href={props.link}>Link</a></li>
+                <li className="event-item">{props.date}</li>
+                <li className="event-item">{props.time}</li>
+                <li className="event-item"><a className="link" href={props.link}>Link</a></li>
+                <li className="event-item">_____________________________</li>
+                <br />
             </ul>
         </li>
     )

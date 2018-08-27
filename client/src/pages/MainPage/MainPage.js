@@ -34,37 +34,39 @@ const MainPage = () => {
         <div>
             <Navbar />
             <Jumbotron />
-            <div className="section-dark grid-wrapper">
-                <h2 className="center">Events Calendar</h2>
-                <h2 className="center">Upcoming Events</h2>
-                <div className="calendar">
-                    <Calendar />
-                </div>
-                <div className="events">
-                    <ul>
-                        {
-                            events.map(event => {
-                                return <EventDetail
-                                    key={event.venue}
-                                    {...event} />
-                            })
-                        }
-                    </ul>
+            <div className="section-light">
+                <div className="grid-wrapper container">
+                    <h2 className="center">Events Calendar</h2>
+                    <h2 className="center">Upcoming Events</h2>
+                    <div className="calendar">
+                        <Calendar />
+                    </div>
+                    <div className="events">
+                        <ul>
+                            {
+                                events.map(event => {
+                                    return <EventDetail
+                                        key={event.venue}
+                                        {...event} />
+                                })
+                            }
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div>
                 <Player />
             </div>
-            <div className="section-white">
-                <div className="feature">
-                    <h3 className="subheading">Classically Trained</h3>
-                    <p className="center">
-                        Bacon ipsum dolor amet cow pastrami frankfurter swine, meatball flank rump landjaeger fatback pork loin jerky sausage turducken pancetta. Shoulder venison ham hock burgdoggen ground round, ribeye capicola flank meatball. Pork chop tongue porchetta sirloin pork belly landjaeger capicola salami brisket ham pork loin strip steak. Tri-tip meatloaf ground round porchetta burgdoggen. Flank shank bacon, jowl bresaola brisket biltong chuck ham filet mignon ground round. Pancetta flank sirloin alcatra, tongue filet mignon tenderloin strip steak t-bone landjaeger bacon cupim leberkas meatball.
-                        <br />
-                        <br />
-                <a className="link" href="/bio">Learn More About Kyle</a>
-                </p>
-                </div>
+            <div className="section-white intro-bio center">
+                <h2 className="subheading">Classically Trained</h2>
+                <h2 className="cursive white-text quote">
+                    “Don’t play everything, or every time. Let some things go by. Some music is just imagined. ”
+                <br />
+                    — Thelonious Monk
+                    </h2>
+                <br />
+                <br />
+                <a className="button" href="/bio">Learn More About Kyle</a>
             </div>
             <Footer />
         </div>
