@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Main from "./pages/MainPage/MainPage";
 import Bio from "./pages/BioPage/BioPage";
+import Media from "./pages/MediaPage/MediaPage";
 
 class App extends Component {
   render() {
@@ -10,8 +11,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route exact path="/bio" component={Bio} />
-            {/* Media page
-            Contact page
+          <Route exact path="/media" component={Media} />
+            {/* Contact page
             Commissions page
             Blog link */}
         </Switch>

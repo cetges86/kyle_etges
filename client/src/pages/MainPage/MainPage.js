@@ -31,7 +31,7 @@ const events = [
 
 const MainPage = () => {
     return (
-        <div>
+        <div className="page-wrapper">
             <Navbar />
             <Jumbotron />
             <div className="section-light">
@@ -60,7 +60,11 @@ const MainPage = () => {
             <div className="section-white intro-bio center">
                 <h2 className="subheading">Classically Trained</h2>
                 <h2 className="cursive white-text quote">
-                    “Don’t play everything, or every time. Let some things go by. Some music is just imagined. ”
+                    “Don’t play everything, or every time.
+                    <br />
+                    Let some things go by.
+                    <br />
+                    Some music is just imagined. ”
                 <br />
                     — Thelonious Monk
                     </h2>

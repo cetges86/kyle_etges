@@ -9,13 +9,13 @@ import portrait2 from "./kyle-portrait2.jpg";
 
 const BioPage = () => {
     return (
-        <div>
+        <div className="page-wrapper">
             <Navbar />
             <div className="wrapper section-black">
                 <img className="banner-img" alt="John Coltrane quote" src={quote} />
             </div>
             <div className="container grid-wrapper">
-                <img alt="portrait of Kyle Etges" className="portrait" src={portrait}></img>
+                <img alt="portrait of Kyle Etges" className="image" src={portrait}></img>
                 <p className="bio-paragraph">Kyle is a saxophonist, composer, educator, and bandleader in Nashville, TN. He began playing music when he was 9 years old, and has been leading bands since he was 13. Kyle graduated Magna Cum Laude from the University of Northern Colorado in 2012, with a double major in Music Education and Jazz Studies. He is currently pursuing a Master's Degree in Jazz Studies at Middle Tennessee State University.
                     <br />
                     <br />
@@ -29,7 +29,7 @@ const BioPage = () => {
                     <br />
                     Kyle currently resides just outside of Nashville, Tennessee with the fiance and three dogs. He is studying with local legend Don Aliquo, and is scheduled to graduate in the Spring of 2019.
                 </p>
-                <img alt="Kyle Etges playing with Citizen Dan" className="portrait" src={portrait2}></img>
+                <img alt="Kyle Etges playing with Citizen Dan" className="image" src={portrait2}></img>
             </div>
 
             <Footer />

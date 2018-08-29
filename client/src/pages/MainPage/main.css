@@ -8,7 +8,7 @@
 }
 a
 /* Body of Page, Element Tags */
-#root {
+.page-wrapper {
     width:103%;
     margin-left:-2%;
 }
@@ -128,11 +128,16 @@ body {
 
 .react-calendar>div {
     color: white;
+
 }
 
 .react-calendar__navigation__label {
     font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
+}
+
+.react-calendar__tile {
+    font-size: 1rem;
 }
 
 .events {
@@ -146,6 +151,7 @@ body {
 
 .calendar>div {
     width: 100%;
+    height:100%;
 }
 
 /* -------------------- */
@@ -269,7 +275,7 @@ footer {
     font-size: .5em;
 }
 
-.portrait {
+.image {
     justify-self: center;
     max-width: 70%;
     margin: 5%;
