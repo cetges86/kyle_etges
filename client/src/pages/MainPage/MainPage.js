@@ -54,7 +54,8 @@ const MainPage = () => {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className="section-dark">
+            <h1 className="center small-caps">Listen</h1>
                 <Player />
             </div>
             <div className="section-white intro-bio center">
