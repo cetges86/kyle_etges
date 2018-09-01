@@ -14,7 +14,7 @@ const BioPage = () => {
             <div className="wrapper section-black">
                 <img className="banner-img" alt="John Coltrane quote" src={quote} />
             </div>
-            <div className="container grid-wrapper">
+            <div className="grid-wrapper section-light">
                 <img alt="portrait of Kyle Etges" className="image" src={portrait}></img>
                 <p className="bio-paragraph">Kyle is a saxophonist, composer, educator, and bandleader in Nashville, TN. He began playing music when he was 9 years old, and has been leading bands since he was 13. Kyle graduated Magna Cum Laude from the University of Northern Colorado in 2012, with a double major in Music Education and Jazz Studies. He is currently pursuing a Master's Degree in Jazz Studies at Middle Tennessee State University.
                     <br />

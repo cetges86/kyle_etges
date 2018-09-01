@@ -12,19 +12,24 @@ const MediaPage = () => {
     return (
         <div className="page-wrapper">
             <Navbar />
-            <div className="container grid-wrapper section-dark">
-                <img className="image" alt="cropped img of kyle with saxophone" src={listenImage} />
+            <div className="grid-wrapper section-dark">
                 <div>
+                    <h2 className="center">Audio</h2>
+                    <img className="image" alt="cropped img of kyle with saxophone" src={listenImage} />
                     <p className="center">Kyle does not have any solo releases, yet...</p>
+                </div>
+                <div>
                     <Player />
                 </div>
             </div>
-            <h1 className="small-caps center">Gallery</h1>
-            <div className="img-gallery">
+            <h1 className="small-caps center">Image Gallery</h1>
+            <div className="container img-gallery">
                 {galleryImages.map(img => {
                     return <GalleryImage
-                    key ={img.id}
-                    path = {img.path} />
+                        key={img.id}
+                        path={img.path}
+                        label={img.label}
+                        alt={img.label} />
                 })}
             </div>
             <div>

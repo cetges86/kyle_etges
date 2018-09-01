@@ -4,8 +4,8 @@ const GalleryImage = (props) => {
     return (
 
         <figure>
-            <img src={props.path} className="gallery-image" />
-            <label className="label">Image of Kyle doing music stuff</label>
+            <img alt={props.label} src={props.path} className="gallery-image" />
+            <label className="label">{props.label}</label>
         </figure>
 
     )

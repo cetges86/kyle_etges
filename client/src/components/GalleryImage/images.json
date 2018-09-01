@@ -1,78 +1,98 @@
 [
     {
         "id":1,
-        "path":"./images/2014(1).jpg"
+        "path":"./images/2014(1).jpg",
+        "label":"2014 Portrait of Kyle"
     },
     {
         "id":2,
-        "path":"./images/2014(2).jpg"
+        "path":"./images/2014(2).jpg",
+        "label":"2014 Portrait of Kyle"
     },
     {
         "id":3,
-        "path":"./images/2014(3).jpg"
+        "path":"./images/2014(3).jpg",
+        "label":"2014 Portrait of Kyle"
     },
     {
         "id":4,
-        "path":"./images/2014(4).jpg"
+        "path":"./images/2014(4).jpg",
+        "label":"2014 Portrait of Kyle"
     },
     {
         "id":5,
-        "path":"./images/2014(5).jpg"
+        "path":"./images/2014(5).jpg",
+        "label":"2014 Portrait of Kyle"
     },
     {
         "id":6,
-        "path":"./images/2016(1).jpg"
+        "path":"./images/2016(1).jpg",
+        "label":"2016 Portrait of Kyle"
     },
     {
         "id":7,
-        "path":"./images/2018(1).jpg"
+        "path":"./images/2018(1).jpg",
+        "label":"2018 Portrait of Kyle"
     },
     {
         "id":8,
-        "path":"./images/citizen1.jpg"
+        "path":"./images/citizen1.jpg",
+        "label":"Kyle Playing with Citizen Dan"
     },
     {
         "id":9,
-        "path":"./images/citizen2.jpg"
+        "path":"./images/citizen2.jpg",
+        "label":"Kyle Playing with Citizen Dan"
     },
     {
         "id":10,
-        "path":"./images/citizen3.jpg"
+        "path":"./images/citizen3.jpg",
+        "label":"Group Portrait of Citizen Dan"
     },
     {
         "id":11,
-        "path":"./images/citizen4.jpg"
+        "path":"./images/citizen4.jpg",
+        "label":"Kyle Playing with Citizen Dan"
     },
     {
         "id":12,
-        "path":"./images/ska1.jpg"
+        "path":"./images/ska1.jpg",
+        "label":"Kyle Playing Some Ska"
     },
     {
         "id":13,
-        "path":"./images/ska2.jpg"
+        "path":"./images/ska2.jpg",
+        "label":"Kyle On Tour With One of His Ska Bands"
     },
     {
         "id":14,
-        "path":"./images/ska3.jpg"
+        "path":"./images/ska3.jpg",
+        "label":"Kyle Playing Some Ska"
+
     },
     {
         "id":15,
-        "path":"./images/ska4.jpg"
+        "path":"./images/ska4.jpg",
+        "label":"Kyle Playing with Ska Skank Redemption"
     },
     {
         "id":16,
-        "path":"./images/wedding1.jpg"
+        "path":"./images/wedding1.jpg",
+        "label":"Kyle Rocking Out at his brother's wedding"
     },
     {
         "id":17,
-        "path":"./images/wedding2.jpg"
+        "path":"./images/wedding2.jpg",
+        "label":"Kyle Rocking Out at his brother's wedding"
     },
     {
         "id":18,
-        "path":"./images/wedding3.jpg"
+        "path":"./images/wedding3.jpg",
+        "label":"Kyle Rocking Out at his brother's wedding"
     },
     {
         "id":19,
-        "path":"./images/misc1.jpg"
+        "path":"./images/misc1.jpg",
+        "label":"Kyle pondering how awesome he is"
     }
 ]
