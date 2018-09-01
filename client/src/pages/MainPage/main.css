@@ -169,6 +169,7 @@ body {
 .section-white {
     background-color: white;
     height: 35rem;
+    color: black;
 }
 
 .section-dark {
@@ -221,7 +222,7 @@ body {
 
 footer {
     background-color: black;
-    margin-top:1rem;
+    margin-top: 1rem;
 }
 
 .footer-follow {
@@ -292,8 +293,8 @@ footer {
 
 .bio-paragraph {
     font-size: .7em;
-    line-height:1.5rem;
-    padding:1.5rem;
+    line-height: 1.5rem;
+    padding: 1.5rem;
 }
 
 /* -------------------- */
@@ -302,30 +303,72 @@ footer {
 
 /* -------------------- */
 
+#player {
+    box-shadow: var(--shadow);
+}
+
 .img-gallery {
-    background:white;
+    background: white;
     column-count: 2;
     line-height: 0;
     align-items: center;
     column-gap: .1rem;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
 .gallery-image {
     justify-self: center;
     margin: 5%;
     box-shadow: var(--shadow);
-    max-width:100%;
+    max-width: 100%;
 }
 
 .label {
-    font-size:.7rem;
-    margin-left:2rem;
+    font-size: .7rem;
+    margin-left: 2rem;
     font-family: var(--script);
-    color:black;
+    color: black;
 }
 
 .gallery-image img {
     width: 100% !important;
     height: auto !important;
-  }
+}
+
+/* -------------------- */
+
+/* Contact Page */
+
+/* -------------------- */
+
+.contact-banner {
+    height: 23rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 1rem;
+}
+
+.banner-img {
+    max-width: 100%;
+}
+
+.contact-page {
+    height:15rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:1rem;
+    align-items: center;
+    line-height: 0;
+    padding-top:1.5rem;
+}
+
+.contact-info {
+    line-height:2rem;
+    grid-column:2/3;
+}
+
+.contact-list {
+    list-style-type: none;
+    align-self:center;
+    padding:0px !important;
+    font-size:.7rem;
+}

@@ -12,7 +12,7 @@ const MediaPage = () => {
     return (
         <div className="page-wrapper">
             <Navbar />
-            <div className="grid-wrapper section-dark">
+            <div className="grid-wrapper section-white">
                 <div>
                     <h2 className="center">Audio</h2>
                     <img className="image" alt="cropped img of kyle with saxophone" src={listenImage} />
