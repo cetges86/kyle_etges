@@ -5,6 +5,7 @@ import Bio from "./pages/BioPage/BioPage";
 import Media from "./pages/MediaPage/MediaPage";
 import Contact from "./pages/ContactPage/ContactPage";
 import Commissions from './pages/CommissionsPage/Commissions';
+import Blog from "./pages/BlogPage/BlogPage";
 
 class App extends Component {
   render() {
@@ -16,7 +17,8 @@ class App extends Component {
           <Route exact path="/media" component={Media} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/commissions" component={Commissions} />
-          {/* Blog link */}
+          <Route exact path="/blog" component={Blog} />
+          {/* <Route exact path="/admin" component={Admin} /> */}
         </Switch>
       </Router>
     );

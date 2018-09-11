@@ -13,9 +13,9 @@ class Navbar extends Component {
                     <a className="links-right" href="/">Home</a>
                     <a className="links-right" href="/bio">Bio</a>
                     <a className="links-right" href="/media">Media</a>
-                    <a className="links-right" href="/contact">Contact</a>
                     <a className="links-right" href="/commissions">Commissions</a>
-                    <a className="links-right">Blog</a>
+                    <a className="links-right" href="/contact">Contact</a>
+                    <a className="links-right" href="/blog">Blog</a>
                 </div>
             </nav>
         )
