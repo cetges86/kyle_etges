@@ -32,9 +32,6 @@ const MediaPage = () => {
                         alt={img.label} />
                 })}
             </div>
-            <div>
-
-            </div>
             <Footer />
         </div>
     )
