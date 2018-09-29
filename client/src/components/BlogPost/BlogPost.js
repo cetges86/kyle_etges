@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 const BlogPost = (props) => {
     return (
@@ -6,7 +6,9 @@ const BlogPost = (props) => {
             <h2>{props.title}</h2>
             <h5>By Kyle Etges</h5>
             <br/>
-            <p>{props.body}</p>
+            <Fragment>
+            {props.body}
+            </Fragment>
         </div>
     )
 }
