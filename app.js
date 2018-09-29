@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'client', 'build')));
+  app.use(express.static(path.join(__dirname, 'public')));
 }
 
 // catch 404 and forward to error handler
