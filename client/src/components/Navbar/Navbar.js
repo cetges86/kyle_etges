@@ -3,19 +3,32 @@ import "./navbar.css";
 
 class Navbar extends Component {
 
+    toggleNavMenu = () => {
+        let x = document.getElementById("myTopnav");
+        if (x.className === "navbar-links") {
+            x.className += " responsive";
+        } else {
+            x.className = "navbar-links";
+        }
+
+    }
+
     render() {
         return (
             <nav className="navbar">
-            <div className="navbar-banner">
-            <h2>Kyle Etges</h2>
-            </div>
-                <div className="navbar-links">
+                <div className="navbar-banner">
+                    <h2>Kyle Etges</h2>
+                </div>
+                <div id="myTopnav" className="navbar-links">
                     <a className="links-right" href="/">Home</a>
                     <a className="links-right" href="/bio">Bio</a>
                     <a className="links-right" href="/media">Media</a>
                     <a className="links-right" href="/commissions">Commissions</a>
                     <a className="links-right" href="/contact">Contact</a>
                     <a className="links-right" href="/blog">Blog</a>
+                    <a class="bar-icon" onClick={this.toggleNavMenu}>
+                        <i class="fa fa-bars"></i>
+                    </a>
                 </div>
             </nav>
         )

@@ -4,19 +4,18 @@
     height: 4em;
     border-bottom: 2px solid black;
     margin-bottom: 1em;
-    justify-content:space-evenly;
-    border-bottom:var(--shadow);
-
+    justify-content: space-evenly;
+    border-bottom: var(--shadow);
 }
 
 .navbar-banner {
     display: flex;
     align-items: center;
     position: relative;
-    margin-left:1.5rem;
-    height:3em;
-    padding:5px;
-    font-family:var(--banner);
+    margin-left: 1.5rem;
+    height: 3em;
+    padding: 5px;
+    font-family: var(--banner);
 }
 
 .navbar-links {
@@ -24,8 +23,13 @@
     grid-column: 2/3;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 1em;
-    padding:5px;
-    margin-right:1rem;
+    padding: 5px;
+    margin-right: 1rem;
+    /* overflow: hidden; */
+}
+
+.navbar-links .bar-icon {
+    display: none;
 }
 
 .links-right {
@@ -34,7 +38,7 @@
     align-items: center;
     position: relative;
     text-decoration: none;
-    height:3em;
+    height: 3em;
 }
 
 .links-right:before {
@@ -56,4 +60,43 @@
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+
+@media screen and (max-width:600px) {
+    .navbar-links a:not(:last-child) {
+        display: none;
+    }
+    .navbar-links a.bar-icon {
+        align-self: center;
+        justify-self: end;
+        grid-column: 1/6;
+        display: block;
+        font-size: 1.6rem;
+    }
+    .navbar-links.responsive {
+        position: relative;
+        display: grid;
+        grid-template-columns: none;
+        transition: 1s ease-in-out;
+        background-color: rgba(255, 255, 255, 0.829);
+        border-radius: 5px;
+    }
+    .navbar-links.responsive a.bar-icon {
+        position: absolute;
+        right: 10px;
+        top: 8px;
+    }
+    .navbar-links.responsive a {
+        float: none;
+        display: grid;
+        color:black;
+        text-align: left;
+        flex-direction: column;
+        grid-template-columns: none;
+        padding: .5rem;
+    }
+    .links-right {
+        height: 2rem;
+        justify-content: start;
+    }
 }

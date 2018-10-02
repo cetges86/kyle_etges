@@ -15,12 +15,13 @@ const BioPage = () => {
                 <img className="banner-img" alt="John Coltrane quote" src={quote} />
             </div>
             <div className="grid-wrapper section-light">
-                <img alt="portrait of Kyle Etges" className="image" src={portrait}></img>
                 <p className="bio-paragraph">Kyle is a saxophonist, composer, educator, and bandleader in Nashville, TN. He began playing music when he was 9 years old, and has been leading bands since he was 13. Kyle graduated Magna Cum Laude from the University of Northern Colorado in 2012, with a double major in Music Education and Jazz Studies. He is currently pursuing a Master's Degree in Jazz Studies at Middle Tennessee State University.
                     <br />
                     <br />
                 During his studies at University of Northern Colorado, he performed internationally with the UNC Jazz Lab Band One, appearing with artists including Jeff Coffin, Terell Stafford, Jeff Clayton, John Clayton, Jeff Hamilton, The New York Voices, and many others. For two years in a row, he won the UNC Jazz Composer's Contest, and had an arrangement performed at the 2011 UNC/Greeley Jazz Festival. He also performed with the UNC Wind Ensemble at the Colorado Music Educator's Association conference, and with the premiere saxophone quartet at the 2011 North American Saxophone Alliance conference in Las Vegas, NV. Three of his compositions were featured at this conference.
                 </p>
+                <img alt="portrait of Kyle Etges" className="image" src={portrait}></img>
+                <img alt="Kyle Etges playing with Citizen Dan" className="image" src={portrait2}></img>
                 <p className="bio-paragraph">
                     After graduating, Kyle taught music in Denver and participated extensively in the ... Orchestra, a jazz ensemble composed of select musicians from around the country. In 2013, his group Bop Skizzum placed 2nd in the Hard Rock Cafe Worldwide Battle of the Bands, and 1st in the United States. In 2014, another one of his projects - The Messers - won the "Best of the West" competition, and performed at the famous Red Rocks Amphitheatre. He also played in the Metropolitan Jazz Orchestra, Denver's premiere big band. He also led Contraband, who have recorded several albums and gone on two nationwide tours.
                     <br />
@@ -29,7 +30,6 @@ const BioPage = () => {
                     <br />
                     Kyle currently resides just outside of Nashville, Tennessee with the fiance and three dogs. He is studying with local legend Don Aliquo, and is scheduled to graduate in the Spring of 2019.
                 </p>
-                <img alt="Kyle Etges playing with Citizen Dan" className="image" src={portrait2}></img>
             </div>
 
             <Footer />

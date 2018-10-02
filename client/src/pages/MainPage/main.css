@@ -7,7 +7,6 @@
     --script: 'Dancing Script', cursive;
 }
 
-a
 /* Body of Page, Element Tags */
 
 .page-wrapper {
@@ -295,7 +294,7 @@ footer {
     font-size: .7em;
     line-height: 1.5rem;
     padding: 1.5rem;
-    color:black;
+    color: black;
 }
 
 /* -------------------- */
@@ -375,11 +374,13 @@ footer {
 }
 
 /* ---------------- */
+
 /* Commissions Page */
+
 /* ---------------- */
 
 .commission-container {
-    position:relative;
+    position: relative;
 }
 
 .commission-img {
@@ -417,20 +418,23 @@ footer {
 .commission-container:hover .commission-img {
     opacity: 0.3;
 }
+
 .commission-container:hover .hover-box {
     opacity: 1;
 }
 
 .text {
-    background-color:var(--dark);
+    background-color: var(--dark);
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-    border-radius:2px;
+    border-radius: 2px;
 }
 
 /* ---------------- */
+
 /* Blog Page */
+
 /* ---------------- */
 
 .blog-banner {
@@ -445,11 +449,69 @@ footer {
 }
 
 .blog-post {
-    width:100%;
+    width: 100%;
     height: 25rem;
     border-radius: 10px;
-    background-color:var(--light);
-    overflow:scroll;
-    color:black;
+    background-color: var(--light);
+    overflow: scroll;
+    color: black;
     line-height: 1.5;
 }
+
+/* ---------------- */
+
+/* Media Queries */
+
+/* ---------------- */
+
+/* Phone */
+
+@media screen and (max-width:600px) {
+    .page-wrapper {
+        width:100%;
+        margin-left:0;
+    }
+    .grid-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        max-width: 100%;
+        padding:0;
+    }
+
+    .banner-text {
+        justify-self: start;
+        margin-left: 1rem;
+    }
+
+    .quote {
+        background-color: rgba(128, 128, 128, 0.6);
+        text-align: left;
+        max-width: 50%;
+        padding-left: 1rem;
+    }
+
+    .section-black, .section-white{
+        height: auto;
+    }
+
+    .img-gallery {
+        column-count: 1;
+        line-height: 1;
+    }
+
+    .gallery-image {
+        margin: auto;
+        padding:.3rem;
+    }
+
+    .text:last-child {
+        font-size: 0.6rem;
+    }
+    
+}
+
+/* Tablet Size (Small) */
+
+@media screen and (min-width:480px) and (max-width:768px) {}
