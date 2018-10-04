@@ -7,9 +7,8 @@ const Jumbotron = () => {
         <div>
             <div className="wrapper">
                 <div className="jumbotron">
-                    <h1 id="main-banner">Kyle Etges</h1>
-                    <h3 className="banner-text">Saxophonist based in Nashville, TN </h3>
-                    <h4 className="banner-text">Saxophonist | Composer | Educator | Band Leader</h4>
+                    <h3 className="banner-text">Saxophonist | Composer | Educator | Band Leader</h3>
+                    <h4 className="banner-text">Based in Nashville, TN </h4>
                 </div>
             </div>
             

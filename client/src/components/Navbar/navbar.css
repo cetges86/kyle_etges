@@ -15,7 +15,8 @@
     margin-left: 1.5rem;
     height: 3em;
     padding: 5px;
-    font-family: var(--banner);
+    font-size: 1.5rem;
+    font-family: var(--script);
 }
 
 .navbar-links {

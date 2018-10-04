@@ -58,8 +58,7 @@ const MainPage = () => {
             <h1 className="center small-caps">Listen</h1>
                 <Player />
             </div>
-            <div className="section-white intro-bio center">
-                <h2 className="subheading">Classically Trained</h2>
+            <div className="section-white eintro-bio center">
                 <h2 className="cursive white-text quote">
                     “Don’t play everything, or every time.
                     <br />
