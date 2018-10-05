@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from '../../components/Footer/Footer';
-import KyleCloseUp from "./KyleCloseUp.jpg";
+// import KyleCloseUp from "./KyleCloseUp.jpg";
 import "../MainPage/main.css";
 
 
@@ -10,7 +10,7 @@ const ContactPage = () => {
         <div className="page-wrapper">
             <Navbar />
             <div className="contact-banner">
-                <img className="banner-img" alt="Banner of Kyle" src={KyleCloseUp}></img>
+            <h1 id="contact-banner-text">Contact Me</h1>
             </div>
             <div className="section-white contact-page">
                 <div>

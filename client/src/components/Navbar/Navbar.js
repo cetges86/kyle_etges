@@ -26,8 +26,8 @@ class Navbar extends Component {
                     <a className="links-right" href="/commissions">Commissions</a>
                     <a className="links-right" href="/contact">Contact</a>
                     <a className="links-right" href="/blog">Blog</a>
-                    <a class="bar-icon" onClick={this.toggleNavMenu}>
-                        <i class="fa fa-bars"></i>
+                    <a className="bar-icon" onClick={this.toggleNavMenu}>
+                        <i className="fa fa-bars"></i>
                     </a>
                 </div>
             </nav>
