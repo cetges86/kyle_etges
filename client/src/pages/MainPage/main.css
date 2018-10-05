@@ -259,6 +259,7 @@ footer {
 
 .banner-img {
     justify-self: center;
+    max-width:100%;
 }
 
 .white-text {
