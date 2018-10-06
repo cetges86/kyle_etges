@@ -12,7 +12,7 @@ const ContactPage = () => {
             <div className="contact-banner">
             <h1 id="contact-banner-text">Contact Me</h1>
             </div>
-            <div className="section-white contact-page">
+            <div id="contact-box" className="contact-page">
                 <div>
                     <h3 className="center small-caps">Booking</h3>
                     <p className="center">_</p>

@@ -53,10 +53,12 @@ body {
 
 .small-caps {
     font-variant: small-caps;
+    letter-spacing: 20px;
 }
 
 .cursive {
     font-family: var(--script);
+    letter-spacing: 2px;
 }
 
 .container>h1 {
@@ -72,6 +74,7 @@ body {
     background-color: orange;
     padding: 10px;
     border-radius: 5px;
+    letter-spacing: 2px;
 }
 
 /* -------------------- */
@@ -107,6 +110,7 @@ body {
     background-color: rgba(128, 128, 128, .7);
     padding: 10px;
     border-radius: 5px;
+    letter-spacing: 5px;
 }
 
 /* -------------------- */
@@ -187,6 +191,7 @@ footer {
     grid-area: follow;
     justify-self: end;
     margin-right: 10%;
+    letter-spacing: 8px;
 }
 
 .icon {
@@ -334,7 +339,11 @@ footer {
     padding: 0px !important;
     font-size: .7rem;
 }
-
+#contact-box {
+    background-color: white;
+    color:var(--dark);
+    height:auto;
+}
 /* ---------------- */
 
 /* Commissions Page */

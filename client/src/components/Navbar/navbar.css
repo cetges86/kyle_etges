@@ -1,7 +1,7 @@
 .navbar {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    height: 4em;
+    height: 3em;
     border-bottom: 2px solid black;
     margin-bottom: 1em;
     justify-content: space-evenly;
@@ -9,6 +9,7 @@
 }
 
 .navbar-banner {
+    margin-top: -1.5%;
     display: flex;
     align-items: center;
     position: relative;

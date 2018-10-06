@@ -17,7 +17,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar">
                 <div className="navbar-banner">
-                    <h2>Kyle Etges</h2>
+                    <a className="link" href="/"><h2>Kyle Etges</h2></a>
                 </div>
                 <div id="myTopnav" className="navbar-links">
                     <a className="links-right" href="/">Home</a>
