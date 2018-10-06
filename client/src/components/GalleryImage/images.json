@@ -2,47 +2,47 @@
     {
         "id":1,
         "path":"./images/2014(1).jpg",
-        "label":"2014 Portrait of Kyle"
+        "label":"2014 Portrait"
     },
     {
         "id":2,
         "path":"./images/2014(2).jpg",
-        "label":"2014 Portrait of Kyle"
+        "label":"2014 Portrait"
     },
     {
         "id":3,
         "path":"./images/2014(3).jpg",
-        "label":"2014 Portrait of Kyle"
+        "label":"2014 Portrait"
     },
     {
         "id":4,
         "path":"./images/2014(4).jpg",
-        "label":"2014 Portrait of Kyle"
+        "label":"2014 Portrait"
     },
     {
         "id":5,
         "path":"./images/2014(5).jpg",
-        "label":"2014 Portrait of Kyle"
+        "label":"2014 Portrait"
     },
     {
         "id":6,
         "path":"./images/2016(1).jpg",
-        "label":"2016 Portrait of Kyle"
+        "label":"2016 Portrait"
     },
     {
         "id":7,
         "path":"./images/2018(1).jpg",
-        "label":"2018 Portrait of Kyle"
+        "label":"2018 Portrait"
     },
     {
         "id":8,
         "path":"./images/citizen1.jpg",
-        "label":"Kyle Playing with Citizen Dan"
+        "label":"Citizen Dan"
     },
     {
         "id":9,
         "path":"./images/citizen2.jpg",
-        "label":"Kyle Playing with Citizen Dan"
+        "label":"Citizen Dan"
     },
     {
         "id":10,
@@ -52,48 +52,48 @@
     {
         "id":11,
         "path":"./images/citizen4.jpg",
-        "label":"Kyle Playing with Citizen Dan"
+        "label":"Citizen Dan"
     },
     {
         "id":12,
         "path":"./images/ska1.jpg",
-        "label":"Kyle Plays With Contraband"
+        "label":"With Contraband"
     },
     {
         "id":13,
         "path":"./images/ska2.jpg",
-        "label":"Kyle playing at Red Rocks with the Messers Horn Section."
+        "label":"At Red Rocks with the Messers Horn Section."
     },
     {
         "id":14,
         "path":"./images/ska3.jpg",
-        "label":"Kyle jamming at The Hat in St. Petersburg, Russia."
+        "label":"Jamming at The Hat in St. Petersburg, Russia."
 
 
     },
     {
         "id":15,
         "path":"./images/ska4.jpg",
-        "label":"Kyle Playing with Contraband"
+        "label":"With Contraband"
     },
     {
         "id":16,
         "path":"./images/wedding1.jpg",
-        "label":"Kyle Rocking out at his brother's wedding"
+        "label":"At his brother's wedding"
     },
     {
         "id":17,
         "path":"./images/wedding2.jpg",
-        "label":"Kyle Rocking out at his brother's wedding"
+        "label":"At his brother's wedding"
     },
     {
         "id":18,
         "path":"./images/wedding3.jpg",
-        "label":"Kyle Rocking out at his brother's wedding"
+        "label":"At his brother's wedding"
     },
     {
         "id":19,
         "path":"./images/misc1.jpg",
-        "label":"Kyle counting rests with the Metropolitan Jazz Orchestra"
+        "label":"Counting rests with the Metropolitan Jazz Orchestra"
     }
 ]
