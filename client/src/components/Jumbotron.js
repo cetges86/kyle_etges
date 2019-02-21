@@ -8,6 +8,7 @@ const Jumbotron = () => {
             <div className="wrapper">
                 <div className="jumbotron">
                     <h3 className="banner-text">Saxophonist | Composer | Educator | Band Leader</h3>
+                    <br/>
                     <h4 className="banner-text">Based in Nashville, TN </h4>
                 </div>
             </div>

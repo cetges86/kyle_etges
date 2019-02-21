@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Player from "../../components/Player/Player";
 import Footer from "../../components/Footer/Footer";
-import listenImage from "./sax-cropped.jpg";
+import listenImage from "./jimi.jpg";
 import galleryImages from "../../components/GalleryImage/images.json";
 import GalleryImage from "../../components/GalleryImage/GalleryImage";
 import "../MainPage/main.css"
@@ -16,7 +16,7 @@ const MediaPage = () => {
                 <div>
                     <h2 className="center">Audio</h2>
                     <img className="image" alt="cropped img of kyle with saxophone" src={listenImage} />
-                    <p className="center">Kyle does not have any solo releases, yet...</p>
+                    <p className="center">"A lot of people believe in God. I believe in music." <br/>Jimi Hendrix</p>
                 </div>
                 <div>
                     <Player />
