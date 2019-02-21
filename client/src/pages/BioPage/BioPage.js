@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import "../../pages/MainPage/main.css";
 import quote from "./coltrane-quote.jpg";
 import portrait from "./kyle6.jpg";
-import portrait2 from "./kyle1.jpg";
+import portrait2 from "./Kyle1.jpg";
 
 
 const BioPage = () => {
