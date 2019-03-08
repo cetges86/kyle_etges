@@ -299,6 +299,21 @@ footer {
     height: auto !important;
 }
 
+
+.quote-block {
+    background-image: url("../MediaPage/igor.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.media-quote {
+    text-align: right;
+    max-width: 90%;
+    line-height: 2rem;
+    padding-top: 10rem;
+    padding-left: 4rem;
+}
+
 /* -------------------- */
 
 /* Contact Page */

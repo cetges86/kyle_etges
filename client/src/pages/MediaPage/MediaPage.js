@@ -32,6 +32,20 @@ const MediaPage = () => {
                         alt={img.label} />
                 })}
             </div>
+            <div className="section-white quote-block center">
+                <h2 className="cursive white-text media-quote">
+                    “There is music wherever there is rhythm,
+                    <br />
+                    as there is life wherever there
+                    <br />
+                    beats a pulse”
+                <br />
+                    — Igor Stravinsky
+                    </h2>
+                <br />
+                <br />
+                <a className="button" href="/bio">Hire Kyle</a>
+            </div>
             <Footer />
         </div>
     )

@@ -1,5 +1,18 @@
 [
     {
+        "id":20,
+        "path":"./images/Kyle1.jpg",
+        "label":"New 2018 Portrait"
+    },{
+        "id":21,
+        "path":"./images/kyle2.jpg",
+        "label":"New 2018 Portrait"
+    },
+    {
+        "id":22,
+        "path":"./images/kyle3.jpg",
+        "label":"New 2018 Portrait"
+    },{
         "id":1,
         "path":"./images/2014(1).jpg",
         "label":"2014 Portrait"
@@ -33,6 +46,10 @@
         "id":7,
         "path":"./images/2018(1).jpg",
         "label":"2018 Portrait"
+    },{
+        "id":10,
+        "path":"./images/citizen3.jpg",
+        "label":"Group Portrait of Citizen Dan"
     },
     {
         "id":8,
@@ -45,14 +62,28 @@
         "label":"Citizen Dan"
     },
     {
-        "id":10,
-        "path":"./images/citizen3.jpg",
-        "label":"Group Portrait of Citizen Dan"
-    },
-    {
         "id":11,
         "path":"./images/citizen4.jpg",
         "label":"Citizen Dan"
+    },{
+        "id":23,
+        "path":"./images/kyle4.jpg",
+        "label":"New 2018 Portrait"
+    },
+    {
+        "id":24,
+        "path":"./images/kyle5.jpg",
+        "label":"New 2018 Portrait"
+    },
+    {
+        "id":25,
+        "path":"./images/kyle6.jpg",
+        "label":"New 2018 Portrait"
+    },
+    {
+        "id":26,
+        "path":"./images/kyle7.jpg",
+        "label":"New 2018 Portrait"
     },
     {
         "id":12,
