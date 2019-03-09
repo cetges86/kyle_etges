@@ -15,8 +15,8 @@ const MediaPage = () => {
             <div className="grid-wrapper section-white">
                 <div>
                     <h2 className="center">Audio</h2>
-                    <img className="image" alt="cropped img of kyle with saxophone" src={listenImage} />
-                    <p className="center">"A lot of people believe in God. I believe in music." <br/>Jimi Hendrix</p>
+                    <img id="jimi-img" className="image" alt="cropped img of kyle with saxophone" src={listenImage} />
+                    <p id="jimi-quote" className="center">"A lot of people believe in God. I believe in music." <br/>Jimi Hendrix</p>
                 </div>
                 <div>
                     <Player />
@@ -44,7 +44,7 @@ const MediaPage = () => {
                     </h2>
                 <br />
                 <br />
-                <a className="button" href="/bio">Hire Kyle</a>
+                {/* <a className="button" href="/bio">Hire Kyle</a> */}
             </div>
             <Footer />
         </div>

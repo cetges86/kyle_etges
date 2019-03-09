@@ -14,7 +14,7 @@ class EventDetail extends Component {
     render() {
         return (
             <div>
-                <a class="bit-widget-initializer" data-artist-name="Kyle Etges Music" data-display-local-dates="true" data-display-past-dates="true" data-auto-style="false" data-text-color="#FFFFFF" data-link-color="#E67A00" data-popup-background-color="#000000" data-background-color="#000000" data-display-limit="15" data-link-text-color="#FFFFFF">.</a>
+                <a className="bit-widget-initializer" data-artist-name="Kyle Etges Music" data-display-local-dates="true" data-display-past-dates="true" data-auto-style="false" data-text-color="#FFFFFF" data-link-color="#E67A00" data-popup-background-color="#000000" data-background-color="#000000" data-display-limit="15" data-link-text-color="#FFFFFF">.</a>
             </div>
         )
     }

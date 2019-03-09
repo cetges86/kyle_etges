@@ -28,18 +28,20 @@ const MainPage = () => {
                 <Player />
             </div>
             <div className="section-white intro-bio center">
-                <h2 className="cursive white-text quote">
+                <h3 className="cursive white-text quote">
                     “Don’t play everything, or every time.
                     <br />
                     Let some things go by.
                     <br />
                     Some music is just imagined. ”
-                <br />
+                <br /><br/>
                     — Thelonious Monk
-                    </h2>
+                    </h3>
                 <br />
                 <br />
-                <a className="button" href="/bio">Learn More About Kyle</a>
+            <div>
+            <a className="button" href="/bio">Learn More About Kyle</a>
+            </div>
             </div>
             <Footer />
         </div>

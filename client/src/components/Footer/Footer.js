@@ -10,7 +10,7 @@ const Footer = () => {
                 <a className="icon ig-icon" rel="noopener noreferrer" target="_blank" href="http://www.instagram.com/etgesofspain" ><i className="fab fa-instagram"></i></a>
                 <a className="icon li-icon" rel="noopener noreferrer" target="_blank" href="http://www.linkedin.com/in/kyle-etges"><i className="fab fa-linkedin-in"></i></a>
             </div>
-            <div className="white-text small-text center">&copy; 2018 Chris Etges Design &amp; Development</div>
+            <div className="white-text small-text center">&copy; 2018 <a href="http://chrisetges.me/">Chris Etges</a> Design &amp; Development</div>
         </footer>
     )
 }

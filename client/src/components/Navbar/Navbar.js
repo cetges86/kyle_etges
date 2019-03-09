@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./navbar.css";
 
 class Navbar extends Component {
-
+    // not my code, trigger for nav hamburger menu
     toggleNavMenu = () => {
         let x = document.getElementById("myTopnav");
         if (x.className === "navbar-links") {
@@ -17,7 +17,7 @@ class Navbar extends Component {
         return (
             <nav className="navbar">
                 <div className="navbar-banner">
-                    <a className="link" href="/"><h2>Kyle Etges</h2></a>
+                    <a className="link" href="/"><h3 id="logo">Kyle Etges</h3></a>
                 </div>
                 <div id="myTopnav" className="navbar-links">
                     <a className="links-right" href="/">Home</a>
