@@ -63,6 +63,14 @@ const Commissions = () => {
                     </div>
                 </div>
             </div>
+            <div className="section-white commission-block center">
+                <h2 className="cursive white-text commission-quote">
+                "There is nothing to keeping a band together. <br />You simply have to have a gimmick,<br /> and the gimmick I use is to pay them money!" <br />-Duke Ellington
+                    </h2>
+                <br />
+                <br />
+                {/* <a className="button" href="/bio">Hire Kyle</a> */}
+            </div>
             <Footer />
         </div>
     )

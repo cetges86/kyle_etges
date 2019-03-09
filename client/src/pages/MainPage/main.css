@@ -74,14 +74,14 @@ body {
     background-color: var(--light);
     padding: 10px;
     position: absolute;
-    right:3%;
+    right: 3%;
     margin-top: 11%;
     border-radius: 5px;
     letter-spacing: 1px;
     opacity: .75;
 }
 
-.button:hover{
+.button:hover {
     opacity: 1;
     transition: 1.5s;
 }
@@ -95,7 +95,7 @@ body {
 .jumbotron {
     display: grid;
     background-image: url("../../components/jumbotron-banner.jpg");
-    background-size:cover;
+    background-size: cover;
     background-position: 50%;
     grid-template-columns: 1fr;
     grid-auto-rows: 4em;
@@ -244,7 +244,7 @@ footer {
 
 .banner-img {
     justify-self: center;
-    max-width:100%;
+    max-width: 100%;
 }
 
 .white-text {
@@ -309,7 +309,6 @@ footer {
     height: auto !important;
 }
 
-
 .quote-block {
     background-image: url("../MediaPage/igor.jpg");
     background-size: cover;
@@ -327,12 +326,26 @@ footer {
 #jimi-quote {
     box-shadow: var(--shadow);
     padding: 10px;
-    
     border-radius: 5px;
 }
 
-#jimi-img{
+#jimi-img {
     margin-left: 10%;
+}
+
+.commission-block {
+    background-image: url("../CommissionsPage/duke.png");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--light);
+}
+
+.commission-quote {
+    text-align: right;
+    max-width: 90%;
+    line-height: 2rem;
+    padding-top: 19rem;
+    padding-left: 4rem;
 }
 
 /* -------------------- */
@@ -351,7 +364,7 @@ footer {
 }
 
 #contact-banner-text {
-    color:var(--dark);
+    color: var(--dark);
     padding: 1rem;
 }
 
@@ -376,11 +389,13 @@ footer {
     padding: 0px !important;
     font-size: .7rem;
 }
+
 #contact-box {
     background-color: white;
-    color:var(--dark);
-    height:auto;
+    color: var(--dark);
+    height: auto;
 }
+
 /* ---------------- */
 
 /* Commissions Page */
@@ -457,14 +472,22 @@ footer {
 }
 
 .blog-post {
-    max-width: 100%;
-    height: 25rem;
+    max-width: 80%;
+    height: 18rem;
     border-radius: 10px;
     background-color: var(--light);
     overflow: scroll;
     color: black;
     line-height: 1.5;
-    margin:1rem;
+    margin: 1rem;
+}
+
+.fa-file-invoice {
+    font-size: 3em;
+    margin-left:40%;
+    border:3px dashed var(--dark);
+    padding:10px;
+    border-radius: 5px;
 }
 
 /* ---------------- */
@@ -476,7 +499,6 @@ footer {
 /* Phone */
 
 @media screen and (max-width:600px) {
-
     .page-wrapper {
         width: 100%;
         margin-left: 0;
@@ -495,9 +517,8 @@ footer {
         max-width: 100%;
         padding: 0rem .5rem 7rem 0rem;
     }
-
     .banner-text {
-        margin:5%;
+        margin: 5%;
     }
     .section-black, .section-white, .section-light {
         height: auto;
@@ -506,8 +527,8 @@ footer {
         column-count: 1;
         line-height: 1;
     }
-    .label{
-        margin:0;
+    .label {
+        margin: 0;
     }
     .gallery-image {
         margin: auto;
@@ -531,10 +552,9 @@ footer {
     .contact-info {
         grid-column: auto;
     }
-    .commission-img{
-        width:100%;
+    .commission-img {
+        width: 100%;
     }
-
 }
 
 /* Tablet Size (Small) */

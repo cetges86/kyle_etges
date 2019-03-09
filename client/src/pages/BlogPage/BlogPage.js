@@ -2,10 +2,11 @@ import React from 'react';
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import BlogPost from '../../components/BlogPost/BlogPost';
+import blogFile from './J Dilla and the Future of Humanity.pdf'
 
 let testBlogPost = {
-    "title":"J Dilla and the Future of Humanity",
-    "body":`The first time one listens to the track “Swamp Thing” by Hiatus Kaiyote, your first thought might be “what the fuck am I listening to?” But then a weird thing happens: the groove envelops you, and for reasons you can’t quite articulate, your bobbing your head right along with Perrin Moss. This track, among many others from the last 20 years, is a perfect example of the wobble beat: a beat that feels like it’s constantly teetering on a complete trainwreck, and yet it gives us one of the deepest grooves found in all modern music. How can something so volatile be so much fun to listen to? The “wobble” or “Dilla” beat is not only an obvious indication of progressive neo-soul, but also a sign of a shift in our tastes in music, and our reactions to the progress of humanity itself.
+    "title": "J Dilla and the Future of Humanity",
+    "body": `The first time one listens to the track “Swamp Thing” by Hiatus Kaiyote, your first thought might be “what the fuck am I listening to?” But then a weird thing happens: the groove envelops you, and for reasons you can’t quite articulate, your bobbing your head right along with Perrin Moss. This track, among many others from the last 20 years, is a perfect example of the wobble beat: a beat that feels like it’s constantly teetering on a complete trainwreck, and yet it gives us one of the deepest grooves found in all modern music. How can something so volatile be so much fun to listen to? The “wobble” or “Dilla” beat is not only an obvious indication of progressive neo-soul, but also a sign of a shift in our tastes in music, and our reactions to the progress of humanity itself.
     
     The wobble beat itself can be hard to describe, but as we delve further into its inner workings, it will become evident that that’s the whole idea. This drum beat is usually credited to J Dilla (aka James Dewitt Yancey), a hugely influential music producer from Detroit until his untimely death in 2006. During his career, J Dee worked with the likes of Erykah Badu, D’Angelo, The Pharcyde, and many many more, and has had a seminal impact on hip hop and neo-soul music in the 21st century. At the time of this writing, I am not sure of the specific session drummer who first laid down this complicated beat. However, we can surmise that they were thinking in a way that very few drummers before them have. Here is a rather rudimentary example of a Dilla beat: 
     
@@ -26,7 +27,13 @@ const BlogPage = () => {
                 <h1 className="center">Blog</h1>
             </div>
             <div className="grid-wrapper">
-                <BlogPost title={testBlogPost.title} body={testBlogPost.body} />
+                {/* <BlogPost title={testBlogPost.title} body={testBlogPost.body} /> */}
+                <div className="blog-post">
+                    <h2>J Dilla and the Future of Humanity - Jan. 9, 2018</h2>
+                    <h5>By Kyle Etges</h5>
+                    <p>Click the icon to download / view this post</p>
+                    <a id="blog-link" target="_blank" href={blogFile}><i className="fas fa-file-invoice"></i></a>
+                </div>
             </div>
             <Footer />
         </div>
