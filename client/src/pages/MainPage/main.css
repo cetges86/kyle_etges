@@ -502,6 +502,10 @@ footer {
     .text {
         font-size:13px;
     }
+    .label {
+        font-size:10px;
+        line-height:1;
+    }
 }
 
 /* Tablet */
@@ -516,7 +520,7 @@ footer {
         grid-row-gap: .2rem;
     }
     .label {
-        font-size: 8px;
+        font-size: 7px;
     }
     .gallery-image {
         margin: 3%;
@@ -596,6 +600,7 @@ footer {
     }
     .label {
         margin: 0;
+        font-size:12px;
     }
     .gallery-image {
         margin: auto;
