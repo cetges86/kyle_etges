@@ -54,6 +54,7 @@ body {
 .small-caps {
     font-variant: small-caps;
     letter-spacing: 20px;
+    padding-top: 15px;
 }
 
 .cursive {
@@ -333,21 +334,6 @@ footer {
     margin-left: 10%;
 }
 
-.commission-block {
-    background-image: url("../CommissionsPage/duke.png");
-    background-size: cover;
-    background-position: center;
-    border: 2px solid var(--light);
-}
-
-.commission-quote {
-    text-align: right;
-    max-width: 90%;
-    line-height: 2rem;
-    padding-top: 19rem;
-    padding-left: 4rem;
-}
-
 /* -------------------- */
 
 /* Contact Page */
@@ -369,7 +355,6 @@ footer {
 }
 
 .contact-page {
-    height: 15rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
@@ -454,6 +439,21 @@ footer {
     border-radius: 2px;
 }
 
+.commission-block {
+    background-image: url("../CommissionsPage/duke.png");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid var(--light);
+}
+
+.commission-quote {
+    text-align: right;
+    max-width: 90%;
+    line-height: 2rem;
+    padding-top: 19rem;
+    padding-left: 4rem;
+}
+
 /* ---------------- */
 
 /* Blog Page */
@@ -484,9 +484,9 @@ footer {
 
 .fa-file-invoice {
     font-size: 3em;
-    margin-left:40%;
-    border:3px dashed var(--dark);
-    padding:10px;
+    margin-left: 40%;
+    border: 3px dashed var(--dark);
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -495,6 +495,59 @@ footer {
 /* Media Queries */
 
 /* ---------------- */
+
+/* Tablet */
+
+@media screen and (max-width:768px) {
+    .page-wrapper {
+        width: 100%;
+        margin-left: 0;
+    }
+    .grid-wrapper {
+        grid-template-columns: 1fr;
+        grid-row-gap: .2rem;
+    }
+    .label {
+        font-size: 8px;
+    }
+    .gallery-image {
+        margin: 3%;
+    }
+    .media-quote {
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+    .commission-quote {
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+    .contact-banner {
+        height: 15rem;
+    }
+    .blog-post {
+        max-width: 100%;
+    }
+    .fa-file-invoice {
+        margin-left: 45%;
+    }
+    .small-caps {
+        letter-spacing: 9px;
+    }
+
+    .bio-item:nth-child(1) {
+        order:2;
+    }
+    .bio-item:nth-child(2){
+        order:1;
+    }
+    .bio-item:nth-child(3){
+        order:3;
+    }
+    .bio-item:nth-child(4){
+        order:4;
+    }
+    
+}
 
 /* Phone */
 
