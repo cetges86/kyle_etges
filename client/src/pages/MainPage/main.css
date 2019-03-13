@@ -500,11 +500,17 @@ footer {
 
 @media screen and (max-width:1024px){
     .text {
-        font-size:13px;
+        font-size:11px;
     }
     .label {
         font-size:10px;
         line-height:1;
+    }
+    .grid-wrapper {
+        grid-gap:.5rem;
+    }
+    .small-caps {
+        letter-spacing: 9px;
     }
 }
 
