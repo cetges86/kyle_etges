@@ -86,6 +86,9 @@
 }
 
 @media screen and (max-width:600px) {
+    .navbar {
+        opacity: .95;
+    }
     .navbar-links a:not(:last-child) {
         display: none;
     }
@@ -103,6 +106,7 @@
         transition: 1s ease-in-out;
         background-color: rgba(255, 255, 255, 0.829);
         border-radius: 5px;
+        margin-top:12%;
     }
     .navbar-links.responsive a.bar-icon {
         position: absolute;

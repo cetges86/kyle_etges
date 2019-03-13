@@ -496,6 +496,14 @@ footer {
 
 /* ---------------- */
 
+/* Laptop */
+
+@media screen and (max-width:1024px){
+    .text {
+        font-size:13px;
+    }
+}
+
 /* Tablet */
 
 @media screen and (max-width:768px) {
@@ -554,7 +562,7 @@ footer {
 @media screen and (max-width:600px) {
     .page-wrapper {
         width: 100%;
-        margin-left: 0;
+        margin: 0;
     }
     .grid-wrapper {
         grid-template-columns: 1fr;
@@ -564,6 +572,10 @@ footer {
         max-width: 100%;
         padding: 0;
     }
+
+    .footer {
+        grid-gap:.5rem;
+    }
     .quote {
         color: orange;
         text-align: right;
@@ -572,6 +584,8 @@ footer {
     }
     .banner-text {
         margin: 5%;
+        font-size:73%;
+        line-height: 2;
     }
     .section-black, .section-white, .section-light {
         height: auto;
@@ -609,7 +623,3 @@ footer {
         width: 100%;
     }
 }
-
-/* Tablet Size (Small) */
-
-@media screen and (min-width:480px) and (max-width:768px) {}
