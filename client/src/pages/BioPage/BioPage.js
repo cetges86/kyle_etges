@@ -24,7 +24,7 @@ const BioPage = () => {
                     <br />
                     In July 2015, Kyle became an Orchestra Musician with Celebrity Cruises. Every night for over a year, he performed saxophone, flute, and clarinet for various guest entertainers, jazz, and big band sets. He also arranged and coordinated the music for Celebrity Reflection's New Year's Eve Party. During his contract, Kyle also transcribed the album Personal Appearance by Sonny Stitt, and is currently researching the harmonic sophistication of Stitt's solos.
                     <br />
-                    Kyle currently resides just outside of Nashville, Tennessee with the fiance and three dogs. He studied with local legend Don Aliquo, and now plans to continue his studies in a PhD program in Philadelphia in the near future.
+                    Kyle currently resides just outside of Nashville, Tennessee with the fiance and three dogs. He studied with local legend Don Aliquo, and since completing his Master's degree plans to spend his time doing what he loves: performing and teaching in Music City!
                 </p>
                 <img alt="Kyle Etges playing with Citizen Dan" className="image bio-item" src={portrait2}></img>
             </div>
