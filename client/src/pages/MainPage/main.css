@@ -268,8 +268,7 @@ footer {
 
 .bio-paragraph {
     margin: 1rem;
-    font-size: .8rem;
-    line-height: 1.3rem;
+    line-height: 1.6rem;
     padding: 1.5rem;
     color: black;
 }
@@ -442,8 +441,7 @@ footer {
 .commission-block {
     background-image: url("../CommissionsPage/duke.png");
     background-size: cover;
-    background-position: center;
-    border: 2px solid var(--light);
+]    border: 2px solid var(--light);
 }
 
 .commission-quote {
