@@ -441,7 +441,7 @@ footer {
 .commission-block {
     background-image: url("../CommissionsPage/duke.png");
     background-size: cover;
-]    border: 2px solid var(--light);
+    border: 2px solid var(--light);
 }
 
 .commission-quote {
