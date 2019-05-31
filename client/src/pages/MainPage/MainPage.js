@@ -16,16 +16,16 @@ const MainPage = () => {
             <Navbar />
             <Jumbotron />
             <div className="section-light">
-                <div className="wrapper container">
-                    <h2 className="center">Upcoming Events</h2>
+                <div className="grid-wrapper container">
                     <div className="events">
+                    <h2 className="center">Upcoming Events</h2>
                         <EventDetail />
                     </div>
-                </div>
-            </div>
-            <div className="section-dark">
-                <h1 className="center small-caps">Listen</h1>
+                    <div>
+                    <h2 className="center">Listen</h2>
                 <Player />
+                    </div>
+                </div>
             </div>
             <div className="section-white intro-bio center">
                 <h3 className="cursive white-text quote">

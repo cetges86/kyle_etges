@@ -4,8 +4,7 @@ const Player = () => {
     return (
         <div>
             <div className="container">
-                <iframe id="player" title="Soundcloud Player" width="100%" height="450" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/6889306&color=%23ab9d94&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-            </div>
+                <iframe id="bc-player" title="bandcamp embedded album" src="https://bandcamp.com/EmbeddedPlayer/album=1101863184/size=large/bgcol=333333/linkcol=e99708/artwork=small/transparent=true/" seamless><a href="http://etges.bandcamp.com/album/jazz-might-happen">Jazz Might Happen by Kyle Etges</a></iframe>            </div>
         </div>
     )
 }
