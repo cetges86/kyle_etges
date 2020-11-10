@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Player from "../../components/Player/Player";
+import Player2 from "../../components/Player/Player2";
 import Footer from "../../components/Footer/Footer";
 import listenImage from "./jimi.jpg";
 import galleryImages from "../../components/GalleryImage/images.json";
@@ -12,14 +13,19 @@ const MediaPage = () => {
     return (
         <div className="page-wrapper">
             <Navbar />
+            <div className="wrapper">
+                
+            <h2 className="center">Audio</h2>
+                    <p id="jimi-quote" className="center">"A lot of people believe in God. I believe in music." <br />Jimi Hendrix</p>
+            </div>
             <div className="grid-wrapper section-white">
-                <div>
-                    <h2 className="center">Audio</h2>
-                    <img id="jimi-img" className="image" alt="cropped img of kyle with saxophone" src={listenImage} />
-                    <p id="jimi-quote" className="center">"A lot of people believe in God. I believe in music." <br/>Jimi Hendrix</p>
-                </div>
+                
+                    {/* <img id="jimi-img" className="center image" alt="cropped img of kyle with saxophone" src={listenImage} /> */}
                 <div>
                     <Player />
+                </div>
+                <div>
+                    <Player2 />
                 </div>
             </div>
             <h1 className="small-caps center">Image Gallery</h1>
