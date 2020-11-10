@@ -19,7 +19,6 @@ const MediaPage = () => {
                     <p id="jimi-quote" className="center">"A lot of people believe in God. I believe in music." <br />Jimi Hendrix</p>
             </div>
             <div className="grid-wrapper section-white">
-                
                     {/* <img id="jimi-img" className="center image" alt="cropped img of kyle with saxophone" src={listenImage} /> */}
                 <div>
                     <Player />
