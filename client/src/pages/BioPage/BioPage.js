@@ -34,20 +34,9 @@ Degree in Jazz Studies at Middle Tennessee State University, under the tutelage 
     travelled nationwide in 2013 and 2014.
                     <br />
                     <br />
-                    In July 2015, Kyle became an Orchestra Musician with Celebrity & Princess Cruises.
-Every night for over a year, he performed saxophone, flute, and clarinet for various guest
-entertainers, jazz, and big band sets. He also arranged and coordinated the music for Celebrity
-Reflection's New Year's Eve Party. During his contract, Kyle also transcribed the album
-Personal Appearance by Sonny Stitt, and is currently researching the harmonic sophistication of
-Stitt's solos.
+                    In July 2015, Kyle became an Orchestra Musician with Celebrity and Princess cruises. He has completed three contracts playing saxophone, flute, and clarinet for various guest entertainers and jazz sets. During his first contract, Kyle researched the improvisations of legendary saxophonist Sonny Stitt, off of his landmark album <i>Personal Appearance</i>. Kyle's findings will be the subject of his first book, "Personal Appearance: The Sophistication of Sonny Stitt."
                     <br />
-                    Kyle currently resides just outside of Nashville, Tennessee with his wife -Gwen- and
-three dogs- Zant, Navi, and Cimorene. He can be seen performing with the Music City Big
-Band, Afro Koko Roots, Dr. Soul’s, as well as leading his own jazz quartet. His Graduate
-Recital, performed in February 2019, is now available for purchase and streaming, under the
-name Jazz Might Happen. His premiere Quartet album, Vow, is set to be released later in 2019.
-Vow features seven original compositions and two original arrangements, all dedicated to Kyle’s
-wife. The album was premiered during their wedding ceremony in July 2019.
+                    The Middle Tennessee State University School of Music selected Kyle Etges as the Graduate Student of the Year in 2019, due to his hard work and dedication during his graduate studies. He now teaches two courses at MTSU, and one course at Nashville State Community College. He can be seen playing in several bands throughout the Nashville area, including the Music City Big Band, Jonny Gowow & The Japanese Cowboys, Dr. Soul's, as well as leading a jazz quartet playing his original compositions and arrangements. The quartet has two releases, Jazz Might Happen (2019) and Vow (2020). He currently resides just outside of Nashville with his wife, Gwen.
 <br/><br/>
 
                 </p>
